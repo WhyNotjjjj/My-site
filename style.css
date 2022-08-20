@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
     font-size: 1.5em;
     background-color: #2b3337;
     color: white;
@@ -226,14 +228,15 @@ body {
     color: yellow;
 }
 
-h3{
+.footer_names{
   cursor: pointer;
+  color: white;
   font-size: 20px;
   font-weight: 100;
   transition: 300ms;
 }
 
-h3:hover{
+.footer_names:hover{
   transition: 200ms;
   color: yellowgreen;
 }
@@ -313,8 +316,40 @@ h3:hover{
     font-family: 'Roboto', sans-serif;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
 
-/* @media (min-width: 1440px) {
+
+a > .block1-.footer2{
+  transition: 200ms;
+  color: yellowgreen;
+}
+
+.bx-wrapper {
+  width: 775px;
+  margin: auto;
+}
+
+.slider-nav > div {
+  float: left;
+  border: 3px solid #fff;
+
+}
+
+.slider-nav > div a {
+  display: block;
+  cursor: pointer;
+}
+
+.logo_team{
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+ @media (min-width: 1440px) {
     .menu {
         display: none;
     }
@@ -343,9 +378,9 @@ h3:hover{
         flex-direction: column;
     }
 
-} */
+} 
 
-/* @media (max-width: 650px) {
+ @media (max-width: 650px) {
 
     .menu-all {
         display: flex;
@@ -389,4 +424,4 @@ h3:hover{
     .inner p {
         margin: 0
     }
-} */
+} 
